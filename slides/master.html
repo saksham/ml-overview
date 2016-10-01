@@ -1,0 +1,31 @@
+<html>
+<head>
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/white.css">
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+    </div>
+</div>
+<script src="js/reveal.js"></script>
+<script src="js/jquery.js"></script>
+<script>
+    var snippets = [
+        'sections/section0.html',
+        'sections/section1.html',
+        'sections/section2.html'
+    ];
+    var loadedSnippets = 0;
+    snippets.forEach(function (snippet) {
+        $.get(snippet, function (data) {
+            $('.slides').append(data);
+            loadedSnippets++;
+            if (loadedSnippets == snippets.length) {
+                Reveal.initialize();
+            }
+        });
+    });
+</script>
+</body>
+</html>
