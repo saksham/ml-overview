@@ -8,3 +8,7 @@ Interactive tools to give an overview of Machine Learning
 ```
 conda create -n new py3-ml --file requierements.txt
 ```
+1. Activate the environment
+```
+source activate py3-ml
+```
