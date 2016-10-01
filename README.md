@@ -14,3 +14,4 @@ Open slides/master.html in any browser after you have cloned the repo.
 
 ### Credits
 1. Slides are based on [reveal.js](https://github.com/hakimel/reveal.js)
+1. Slides were scaffolded using [nwb](https://github.com/insin/nwb)
