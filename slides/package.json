@@ -1,22 +1,21 @@
 {
-  "name": "reveal.js",
-  "version": "3.3.0",
-  "description": "The HTML Presentation Framework",
-  "homepage": "http://lab.hakim.se/reveal-js",
-  "subdomain": "revealjs",
+  "name": "ml-overview",
+  "version": "1.0.0",
+  "description": "An overview of Machine Learning approaches",
+  "homepage": "",
   "main": "js/reveal.js",
   "scripts": {
     "test": "grunt test",
     "start": "grunt serve"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "http://hakim.se"
+    "name": "Saksham Gautam",
+    "email": "saksham@no-reply.github.com",
+    "web": "http://sakshamgautam.blogspot.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hakimel/reveal.js.git"
+    "url": "git://github.com/saksham/ml-overview.git"
   },
   "engines": {
     "node": "~4.1.1"
